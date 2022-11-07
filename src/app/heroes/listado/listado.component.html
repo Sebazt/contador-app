@@ -1,0 +1,15 @@
+<section>
+  <ul *ngFor="let saiyan of saiyans; let i = index">
+    <li>{{i + 1}}: {{saiyan}}</li>
+  </ul>
+</section>
+
+<div *ngIf="saiyanEliminado; else noBorrado">
+  <h3>Saiyan Eliminado: <small>{{saiyanEliminado}}</small></h3>
+</div>
+
+<ng-template #noBorrado>
+  <h3>No haz eliminado a ningún Saiyan</h3>
+</ng-template>
+
+<button (click)="borrarSaiyan()">Borrar</button>
