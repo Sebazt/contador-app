@@ -32,10 +32,4 @@ export class HeroeComponent implements OnInit {
     this.edad = 30;
   }
 
-  public returnPropertys():void{
-    this.nombre = this.nombre;
-    this.edad = this.edad;
-    console.log(this.nombre);
-
-  }
 }
