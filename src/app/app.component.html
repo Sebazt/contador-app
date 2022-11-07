@@ -1,3 +1,8 @@
-<h1>Hola beybe</h1>
-
+<section>
+  <h1>{{ title }}</h1>
+  <span>{{numero}}</span>
+  <button (click)="setNumber(+1)">Increase</button>
+  <button (click)="setNumber(-1)">Decrease</button>
+  <button (click)="reset()">Reset</button>
+</section>
 <router-outlet></router-outlet>
