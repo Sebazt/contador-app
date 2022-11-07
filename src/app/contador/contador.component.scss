@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 100%;
+  min-height: 50%;
+  margin: auto;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  span {
+    font-size: 1.5rem;
+    color: rgb(34, 119, 153);
+  }
+}
