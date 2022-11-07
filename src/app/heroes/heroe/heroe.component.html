@@ -1,1 +1,23 @@
-<p>heroe works!</p>
+
+<p>{{nombre}}</p>
+
+<dl>
+  <td>Nombre: </td>
+  <dd>{{nombre}}</dd>
+
+  <td>Edad: </td>
+  <dd>{{edad}}</dd>
+
+  <td>Función: </td>
+  <dd>{{getName()}}</dd>
+
+  <td>Capitalizado: </td>
+  <dd>{{nombre | uppercase}}</dd>
+</dl>
+
+
+<button (click)="changeName()">Cambiar Heroe</button>
+
+<button (click)="changeEdad()">Cambiar Edad</button>
+
+<button (click)="returnPropertys()">retornar</button>
